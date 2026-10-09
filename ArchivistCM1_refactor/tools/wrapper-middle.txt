@@ -1,0 +1,3 @@
+]===]
+local __ARCH_HANDOFF = nil
+local __ARCH_CORE = [===[

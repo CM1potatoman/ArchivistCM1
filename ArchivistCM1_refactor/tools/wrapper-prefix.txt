@@ -1,0 +1,3 @@
+-- Archivist 4.4 YSL | Self-contained TPHandler
+-- Execute this single file once; it queues itself when Roblox teleports.
+local __ARCH_SOURCE = [===[

@@ -1,0 +1,6 @@
+]===]
+local __ARCH_FACTORY, __ARCH_FACTORY_ERROR = loadstring(__ARCH_CORE)
+assert(__ARCH_FACTORY, 'Archivist TP bootstrap compilation failed: ' .. tostring(__ARCH_FACTORY_ERROR))
+local __ARCH_LAUNCH = __ARCH_FACTORY()
+assert(type(__ARCH_LAUNCH) == 'function', 'Archivist TP bootstrap returned no runner')
+__ARCH_LAUNCH(__ARCH_SOURCE, __ARCH_HANDOFF, __ARCH_CORE)
